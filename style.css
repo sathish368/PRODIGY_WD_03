@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image:linear-gradient(to right,red,yellow);
+}
+
+.game-board {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #eee;
+}
+
+.game-status {
+  margin-top: 20px;
+}
+
+#turn {
+  font-weight: bold;
+}
+
+#winner {
+  font-size: 24px;
+  color: #666;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: #fff;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #3e8e41;
+}
